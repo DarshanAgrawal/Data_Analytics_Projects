@@ -45,3 +45,8 @@ from NYC311data
 where closed_Date is not null and city is not null and location is not null and Location_Type is not null
 group by status
 order by cnt desc;
+
+select Agency_Name, count(*) as cnt
+from NYC311data
+group by Agency_Name
+order by cnt desc;
