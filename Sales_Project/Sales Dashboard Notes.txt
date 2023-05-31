@@ -1,0 +1,4 @@
+Sales Dashboard:
+
+1). To remove duplicated currencies due to extra characters, just right click select transform and click on clean, it'll automatically remove extra characters.
+
